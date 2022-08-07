@@ -1,0 +1,13 @@
+{
+  "name": "language-reabank",
+  "private": false,
+  "version": "0.0.2"
+  "description": "Add syntax highlighting and snippets to reabank files in Atom",
+  "engines": {
+    "atom": ">=0.50.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andy-coin/language-reabank.git"
+  },
+}
