@@ -8,9 +8,44 @@
   'function':
     'prefix': 'fun'
     'body': 'function ${1:FunctionName} (${2:args})\n\t${0:-- body...}\nend'
+
   '//!':
-    'prefix': '//!'
-    'body': 'function ${1:FunctionName} (${2:args})\n\t${0:-- body...}\nend'
+    'prefix': '//!',
+    'body': '//! c= i= o=note:\tcc:'
+  'Bank':
+    'prefix': 'Ba'
+    'body': 'Bank'
+  'note':
+    'prefix': 'no'
+    'body': 'note'
+  'legato=':
+    'prefix': 'leg'
+    'body': 'legato'
+  'sustain':
+    'prefix': 'sus'
+    'body': 'sustain'
+  'staccato':
+    'prefix': 'sta'
+    'body': 'staccato'
+  'pizzicato':
+    'prefix': 'pizz'
+    'body': 'pizzicato'
+  'tremolo':
+    'prefix': 'tre'
+    'body': 'tremolo'
+  'trills':
+    'prefix': 'tri'
+    'body': 'trills'
+  'aleatoric':
+    'prefix': 'ale'
+    'body': 'aleatoric'
+  'crescendo':
+    'prefix': 'cre'
+    'body': 'crescendo'
+  'martele':
+    'prefix': 'martele'
+    'body': 'martele'
+
   'anon function':
     'prefix': 'afun'
     'body': '${1:FunctionName} = function (${2:args})\n\t${0:-- body...}\nend'

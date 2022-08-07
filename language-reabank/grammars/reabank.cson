@@ -1,9 +1,17 @@
+name: 'reabank'
+scopeName: 'reabank'
+type: 'tree-sitter'
+parser: 'tree-sitter-reabank'
+
 'comment': 'reabank Syntax: version 0.8'
 'fileTypes': [
   'reabank'
 ]
+
 'firstLineMatch': '\\A#!.*?\\breabank\\b'
+
 'name': 'reabank'
+
 'patterns': [
   {
     'captures':
@@ -129,7 +137,11 @@
     ]
   }
   {
-    'match': '\\b(and|or|not|break|do|else|for|if|elseif|return|then|repeat|while|until|end|function|local|in|goto)\\b'
+    'match': '\\b(Default|Short|Legato|long|Textured|FX|note|acciaccatura|eighth|half|quarter|sixteenth|tied|whole|phrase|
+              accented|acciaccatura|alt|bend-down|bend-up|blend|bow-down|bow-up|legno|con|sord|pont|cresc|crescendo|cuivre|
+              5th|decrescendo|fall|fanfare|flautando|con|fortepiano|ghost|harmonics|harmonics-natural|harp-pdlt|legato|fast|
+              gliss|portamento|runs|slow|light|dark|list|marcato|pizz|plop|portato|ricochet|rip|run|major|minor|scoop|spiccato|
+	            staccatissimo|staccato|stopped|sul-pont|sul-tasto|tenuto|tremolo|trill|vibrato|moltosustain|cc:|note:)\\b'
     'name': 'keyword.control.reabank'
   }
   {
